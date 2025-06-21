@@ -18,8 +18,6 @@ Este repositorio contiene los scripts y notebooks necesarios para ejecutar el pr
 │   └── cytoscape/
 │       ├── network_cases.cys
 │       ├── network_controls.cys
-│       ├── network_cases.graphml
-│       ├── network_controls.graphml
 │       ├── enrichment_cases.csv
 │       └── enrichment_controls.csv
 ├── annotation/
@@ -113,10 +111,8 @@ Se incluyen los siguientes archivos:
 
 - `network_cases.cys`: red construida a partir de las muestras de casos.
 - `network_controls.cys`: red construida a partir de las muestras de controles.
-- `network_cases.graphml`: red construida a partir de las muestras de casos.
-- `network_controls.graphml`: red construida a partir de las muestras de controles.
 
-Estos archivos se encuentran en `results/cytoscape/` y pueden abrirse directamente con Cytoscape para explorar los nodos, interacciones y anotaciones. Se proporciona archivos `.graphml` para mejorar la interoperabilidad.
+Estos archivos se encuentran en `results/cytoscape/` y pueden abrirse directamente con Cytoscape para explorar los nodos, interacciones y anotaciones. 
 
 También se incluyen archivos de resultados de enriquecimiento funcional exportados desde Cytoscape:
 
