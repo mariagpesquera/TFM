@@ -1,4 +1,4 @@
-# Preprocesamiento de datos RNA-seq
+# Procesamiento de datos RNA-seq
 
 Este repositorio contiene los scripts y notebooks necesarios para ejecutar el preprocesamiento de datos de RNA-seq del trabajo fin de máster. Se utilizan los datos del proyecto [PRJNA601326](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA601326). También se incluye el análisis posterior en R y Python.
 
