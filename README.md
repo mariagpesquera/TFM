@@ -144,9 +144,3 @@ A continuación, se ejecuta el script de R para el análisis de expresión difer
 María González Pesquera  
 Trabajo de Fin de Máster  
 Bioinformática 
-
----
-
-## 📎 Licencia
-
-Este repositorio se proporciona con fines académicos. Puedes adaptarlo citando adecuadamente al autor/a.
