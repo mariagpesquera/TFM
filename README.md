@@ -97,11 +97,11 @@ Obtiene la matriz de recuentos final a partir de los BAM deduplicados usando `fe
 
 El análisis posterior se realiza con:
 
-- `analysis_script.R`: identifica genes diferencialmente expresados (DEGs) a partir de la matriz generada por featureCounts, usando edgeR.
+- `analysis_script.R`: identifica genes diferencialmente expresados (DEGs) a partir de la matriz generada por featureCounts, usando edgeR, y representa los boxplots de los genes centrales destacados.
 
 - `analysis_notebook.ipynb`: calcula el valor gamma para cada muestra a partir de los datos procesados.
 
-- `filter_enrichment.R`: filtra y resume los resultados de enriquecimiento funcional exportados desde Cytoscape, seleccionando términos significativos.
+- `filter_enrichment.R`: filtra y resume los resultados de enriquecimiento funcional exportados desde Cytoscape, seleccionando términos significativos, y genera los gráficos de burbujas correspondientes a los grupos analizados.
 
 Los archivos están preparados para ser ejecutados dentro del mismo entorno conda.
 
